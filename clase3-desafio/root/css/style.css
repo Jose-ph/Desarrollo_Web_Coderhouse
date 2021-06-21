@@ -1,4 +1,56 @@
-#prueba {
+.menu {
 
-    color: red;
+    color: crimson;
+}
+
+.titulo {
+
+    color: darkolivegreen;
+    font-weight: 1000;
+}
+
+table{
+
+    border: 5px solid blueviolet;
+    background-color: cadetblue;
+}
+
+th {    
+
+    font-style: italic;
+}
+
+td{
+    color: darkgreen ;
+}
+
+footer {
+
+    background-color: yellow;
+}
+
+header{
+    background-color: violet;
+}
+
+body{
+
+    background-color: darksalmon;
+}
+
+p{
+
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+h2 {
+
+    color: darkviolet;
+}
+
+h3{
+
+    font-size: small;
 }
