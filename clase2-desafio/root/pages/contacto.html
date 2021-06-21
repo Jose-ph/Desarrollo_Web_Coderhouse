@@ -27,29 +27,36 @@
 
     </header>
 
-    <h2>Contacto</h2>
-    <form action="">
+    <h2>¿Quieres contactarnos?</h2>
+    <form action="" method="POST">
       <label for="nombre_apellido">Nombre y apellido</label>
       <input type="text" name="nombre_apellido" placeholder="Juan Pérez" required>
       <br>
       <label for="email">Email</label>
       <input type="email" name="email" id="" placeholder="ejemplo@gmail.com" required>
       <br>
+
+      <!--Menú desplegable -->
+      <label for="rango_edad">País:</label>
+      <select name="rango_edad" id="">
+        <option value="Argentina">Argentina</option>
+        <option value="Brasil">Brasil</option>
+        <option value="Chile">Chile</option>
+      </select>
+
+      <br>
+
       <textarea name="" id="" cols="30" rows="10" placeholder="escribe tu comentario"></textarea> 
       
       <br>
 
       <label for="chek_uno">Deseo recibir información de Pyme Miel</label>
-       Si<input type="checkbox" name="check_uno" >
-       No <input type="checkbox" name="check_uno" >
+       <input type="checkbox" name="check_uno" >
+       
       <br>
 
-      <!--Menú desplegable -->
-      <select name="" id="">
-        <option value="1"></option>
-        <option value="2"></option>
-        <option value="3"></option>
-      </select>
+      
+     
 
       <br>
       <input type="submit" value="Enviar">
