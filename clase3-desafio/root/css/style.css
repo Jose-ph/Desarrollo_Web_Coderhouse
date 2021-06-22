@@ -44,6 +44,7 @@ table{
 
     border: 5px solid blueviolet;
     background-color: cadetblue;
+    font-family: 'Roboto', sans-serif;
 }
 
 th {    
@@ -95,3 +96,28 @@ h3{
     height: 500px;
 }
 
+
+/* Estilo para el footer*/
+
+footer ul {
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+footer ul li {
+
+    display: inline-block;
+
+}
+
+
+footer ul li a {
+    color:grey;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+}
