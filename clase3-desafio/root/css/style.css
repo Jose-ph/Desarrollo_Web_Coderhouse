@@ -1,8 +1,39 @@
+/*  Estilos para el menú de navegación*/
 .menu {
 
-    color: crimson;
+   background-color: black;
+
 }
 
+.menu ul {
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.menu ul li {
+
+    display: inline-block;
+
+}
+
+.menu ul li a {
+    color: white;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.menu ul li a:hover{
+    background-color: lightcoral;
+}
+
+.derecha {
+    float: right;
+}
+/*  Estilos para el menú de navegación-FIN*/
 .titulo {
 
     color: darkolivegreen;
