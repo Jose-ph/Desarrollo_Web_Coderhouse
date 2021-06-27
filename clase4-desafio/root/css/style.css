@@ -55,7 +55,7 @@
     
     
 }
-
+/*Estilos para las tablas*/
 table{
 
     border: 5px solid blueviolet;
@@ -72,6 +72,17 @@ th {
 td{
     color: darkgreen ;
     background-color: white;
+   
+}
+
+
+td ul li{
+    list-style:square inside;
+}
+
+td ol li {
+
+    list-style-type: square ;
 }
 
 footer {
@@ -98,16 +109,20 @@ main p{
     line-height: 2;
     letter-spacing: 1px;
     color: blue;
+    font-family: 'Roboto', sans-serif;
+    
 }
 
 h2 {
 
     color: darkviolet;
+    font-family: 'Roboto', sans-serif;
 }
 
 h3{
 
     font-size: small;
+    font-family: 'Roboto', sans-serif;
 }
 
 #video {
@@ -136,6 +151,7 @@ footer ul li {
 
 footer ul li a {
     color:black;
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     display: block;
     padding: 20px;
