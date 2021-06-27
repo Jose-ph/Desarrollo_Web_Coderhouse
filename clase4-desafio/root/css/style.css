@@ -52,6 +52,7 @@
     font-weight: 1000;
     font-size: 3rem;
     text-align: center;
+    letter-spacing: 1.2em;
     
     
 }
@@ -156,4 +157,12 @@ footer ul li a {
     display: block;
     padding: 20px;
     text-decoration: none;
+}
+
+.imagenMuestra {
+
+    border-style: solid;
+    border-color: black;
+    border-width: 0.5em;
+    border-radius: 2em;
 }
