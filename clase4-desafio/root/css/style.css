@@ -53,6 +53,7 @@
     font-size: 3rem;
     text-align: center;
     letter-spacing: 1.2em;
+    text-decoration: underline;
     
     
 }
@@ -111,6 +112,7 @@ main p{
     letter-spacing: 1px;
     color: blue;
     font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
     
 }
 
