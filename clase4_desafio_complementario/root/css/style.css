@@ -46,7 +46,7 @@
 /*  Estilos para el menú de navegación-FIN*/
 .titulo {
 
-    color: #f8e12d;
+    color: darkolivegreen;
     font-family: 'Roboto',sans-serif;
     font-style: oblique;
     font-weight: 1000;
@@ -57,37 +57,81 @@
     
     
 }
+/*Estilos para las tablas*/
+table{
 
+    border: 5px solid blueviolet;
+    background-color: cadetblue;
+    font-family: 'Roboto', sans-serif;
+}
 
-footer {
+th {    
 
-    background-color: #c4ba9e;
+    font-style: italic;
+    background-color: white;
+}
+
+td{
+    color: darkgreen ;
+    background-color: white;
    
 }
 
-header{ 
 
-    width: 100%;
-    height: 32rem;
+td ul li{
+    list-style:square inside;
+}
+
+td ol li {
+
+    list-style-type: square ;
+}
+
+footer {
+
+    background-color: yellow;
+   
+}
+
+header{
     background-color: violet;
    
 }
 
-
-
 body{
-  
+    height: 100vh;
+    width: 100%;
+    
+    background-image:url(../images/tapizabejas.png);
 }
 
 main p{
 
-  
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+    color: blue;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    
 }
 
 h2 {
 
+    color: darkviolet;
+    font-family: 'Roboto', sans-serif;
 }
 
+h3{
+
+    font-size: small;
+    font-family: 'Roboto', sans-serif;
+}
+
+#video {
+    width: 100%;
+    height: 500px;
+}
 
 
 /* Estilo para el footer*/
