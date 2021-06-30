@@ -1,42 +1,85 @@
 /*Reset*/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: inherit;
-    list-style: none;
-    text-decoration: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: inherit;
+  list-style: none;
+  text-decoration: none;
 }
 
-body{
-    background-color: teal;
+body {
+  background-color: teal;
 }
-
+/* estilos header*/
 header {
-    
-    height: 550px;
-    width: 100%;
-    background-color: black;
-   
+  height: 650px;
+  width: 100%;
+  background-color: black;
+  background-image: url(../images/glass-jar-full-of-honey-with-honey-spoon.jpg);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* portada comentada para probar otras opciones*/
+/*.portada {
+  width: 90%;
+  height: 100%;
+
+ /* background-image: url(../images/glass-jar-full-of-honey-with-honey-spoon.jpg);*/
+
+  /*background-position: center;
+  background-size: cover;
+  float: left;
+}    */
+      
+.contenedorLogo {
+
+  width: 200px;
+  height: 200px;
+  
+  background-image: url(../images/logo3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: left;
+}
+/*agregar flexbox a este titulo*/
+.tituloPortada{
+    text-align: center;
 }
 
-.hleft{
+/*  Estilos para el menú de navegación*/
+.menu {
 
-    width: 100%;
-    height: 100%;
-    
-    background-image: url(../images/glass-jar-full-of-honey-with-honey-spoon.jpg);
-
-    background-position:center;
-    background-size: cover;
-    
-
-}
-
-
-
-
-
-
-
-
+    background-color:black;
+ }
+ 
+ .menu ul {
+ 
+     list-style: none;
+     margin: 0;
+     padding: 0;
+ 
+ }
+ 
+ .menu ul li {
+ 
+     display: inline-block;
+ 
+ }
+ 
+ .menu ul li a {
+     color: white;
+     display: block;
+     padding: 20px;
+     text-decoration: none;
+ }
+ 
+ .menu ul li a:hover{
+     background-color: lightcoral;
+     
+ }
+ 
+ 
+ /*  Estilos para el menú de navegación-FIN*/
