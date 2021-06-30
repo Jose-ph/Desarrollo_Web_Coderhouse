@@ -1,0 +1,161 @@
+/*Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  color: inherit;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: teal;
+  background-image: url(../images/marjan-blan-marjanblan-_kUxT8WkoeY-unsplash.jpg);
+}
+/* estilos header*/
+header {
+  height: 650px;
+  width: 100%;
+  background-color: black;
+  background-image: url(../images/glass-jar-full-of-honey-with-honey-spoon.jpg);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* portada comentada para probar otras opciones*/
+/*.portada {
+  width: 90%;
+  height: 100%;
+
+ /* background-image: url(../images/glass-jar-full-of-honey-with-honey-spoon.jpg);*/
+
+  /*background-position: center;
+  background-size: cover;
+  float: left;
+}    */
+      
+.contenedorLogo {
+
+  width: 200px;
+  height: 200px;
+  
+  background-image: url(../images/logo3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: left;
+}
+/*agregar flexbox a este titulo*/
+.tituloPortada{
+    text-align: center;
+}
+
+/*  Estilos para el menú de navegación*/
+.menu {
+
+    background-color:black;
+    position: top 100px,right 100px , left 100px ;
+    margin-bottom: 10px;
+  
+ }
+ 
+ .menu ul {
+ 
+     list-style: none;
+     margin: 0;
+     padding: 0;
+ 
+ }
+ 
+ .menu ul li {
+ 
+     display: inline-block;
+ 
+ }
+ 
+ .menu ul li a {
+     color: white;
+     display: block;
+     padding: 20px;
+     text-decoration: none;
+ }
+ 
+ .menu ul li a:hover{
+     background-color: lightcoral;
+     
+ }
+ 
+ 
+ /*  Estilos para el menú de navegación-FIN*/
+
+ /*estilos para el video*/
+
+ .contenedorVideo{
+    
+    width: 864px;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 10px;
+    border: 5px solid;
+     border-color: lavender;
+     overflow: hidden;
+   
+ }
+
+ #video {
+     
+     height: auto;
+     width: auto;
+     
+     
+ }
+
+ /*Estilos para el main*/
+
+ main{
+   height: 1000px;
+   width: 1000x;
+   border: solid 3px red;
+   margin: 100px;
+ }
+
+ /* estilos imagen dentro del main*/
+
+ .contenedorImagen{
+
+  width: 206px;
+  height: 206;
+  
+
+  border: 3px solid yellow;
+  float: right;
+ }
+
+ /*estilo para parrafo dentro del main*/
+
+ .contenedorParrafo {
+
+  border: dashed 3px blue;
+  padding: 15px;
+  
+ }
+ .contenedorParrafo p{
+
+  text-align: center;
+ }
+
+ /*Estilos para el footer*/
+
+ .contenedorFooter{
+
+  width: 100%;
+  height: 200px;
+  border: solid 3px green;
+  margin-bottom: 0px;
+
+ }
+
+ .linkRedes li {
+    display: inline-block;
+ }
