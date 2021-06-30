@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow: hidden;
+  
   color: inherit;
   list-style: none;
   text-decoration: none;
@@ -89,12 +89,17 @@ header {
 
  .contenedorVideo{
     
-    width: 600px;
+    width: 864px;
     margin: 100px;
     border: 5px solid;
-    border-color: lavender;
+     border-color: lavender;
+   
  }
 
  .contenedor video {
-     width: 100%;
+     padding: auto;
+     width: auto;
+     
+
+     
  }
