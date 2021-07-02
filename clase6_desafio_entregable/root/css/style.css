@@ -10,31 +10,44 @@
 }
 
 body {
-  background-color: teal;
+  background-color: black;
   background-image: url(../images/marjan-blan-marjanblan-_kUxT8WkoeY-unsplash.jpg);
 }
-/* estilos header*/
-header {
-  height: 650px;
+/* estilos header del index*/
+#indexHeader {
+  height: 800px;
   width: 100%;
-  background-color: black;
-  background-image: url(../images/glass-jar-full-of-honey-with-honey-spoon.jpg);
+  background-color:#c4ba9e;
+ background-image: url(../images/glass-jar-full-of-honey-with-honey-spoon.jpg);
   background-position:center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  /*flex-direction: column;*/
+
+  justify-content: center;
+  align-items: center;
+  
 }
-/* portada comentada para probar otras opciones*/
-/*.portada {
-  width: 90%;
-  height: 100%;
+/* Estilos header resto de las paginas */
 
- /* background-image: url(../images/glass-jar-full-of-honey-with-honey-spoon.jpg);*/
 
-  /*background-position: center;
+header{
+  height: 600px;
+  width: 100%;
+  background-color:#c4ba9e;
+ 
+  background-position:center;
+  background-repeat: no-repeat;
   background-size: cover;
-  float: left;
-}    */
-      
+  display: flex;
+  /*flex-direction: column;*/
+
+  justify-content: center;
+  align-items: center;
+  
+}
+
 .contenedorLogo {
 
   width: 200px;
@@ -44,11 +57,17 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  float: left;
+
+  
 }
 /*agregar flexbox a este titulo*/
 .tituloPortada{
-    text-align: center;
+    background-color:#f8e12d;
+}
+
+.tituloPortada h1 {
+
+  font-family: 'Roboto', sans-serif;
 }
 
 /* estilos de menu desplegable  */
