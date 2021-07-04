@@ -181,3 +181,16 @@ ul li:hover ul {
  .linkRedes li {
     display: inline-block;
  }
+
+ /* Estilos para el footer flexbox */
+
+ .linkRedes  {
+
+   display: flex;
+   flex-direction: row-reverse;
+   flex-wrap: nowrap;
+   justify-content: space-around;
+   align-items: baseline;
+
+  
+}
