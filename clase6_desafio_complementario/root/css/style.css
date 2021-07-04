@@ -203,5 +203,24 @@ ul li:hover ul {
   flex-direction: column;
   flex-wrap: nowrap;
   align-items: flex-end;
+  align-items: center;
+  background-color: #f8e12d;
+
   
+}
+
+.contenedorGeneral {
+ margin: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+
+  
+}
+
+.contenedorImagenContacto img {
+  border-radius: 50%;
+
+
 }
