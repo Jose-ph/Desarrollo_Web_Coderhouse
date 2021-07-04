@@ -33,7 +33,7 @@ body {
 
 
 header{
-  height: 600px;
+  height: 300px;
   width: 100%;
   background-color:#c4ba9e;
  
@@ -192,5 +192,16 @@ ul li:hover ul {
    justify-content: space-around;
    align-items: baseline;
 
+  
+}
+
+/* Estilos para Seccion Contacto con flexbox*/
+
+.contactanos{
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: flex-end;
   
 }
