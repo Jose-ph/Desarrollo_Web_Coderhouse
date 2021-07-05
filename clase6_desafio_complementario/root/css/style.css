@@ -13,7 +13,7 @@ body {
   background-color: black;
   background-image: url(../images/marjan-blan-marjanblan-_kUxT8WkoeY-unsplash.jpg);
 }
-/* estilos header del index*/
+/* estilos header del index portada*/
 #indexHeader {
   height: 800px;
   width: 100%;
@@ -68,9 +68,16 @@ header{
 .tituloPortada h1 {
 
   font-family: 'Roboto', sans-serif;
+  font-weight: bold;
 }
 
 /* estilos de menu desplegable  */
+
+.menu{
+  margin: 10px;
+  display: flex;
+  justify-content: flex-end ;
+}
 ul {
   list-style: none;
   background-color:#c4ba9e;
@@ -223,4 +230,21 @@ ul li:hover ul {
   border-radius: 50%;
 
 
+}
+
+.contactanos h2 {
+
+  margin: 10px;
+}
+
+.formularioContacto{
+
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+}
+
+.formularioContacto label{
+
+  margin: 5px;
 }
