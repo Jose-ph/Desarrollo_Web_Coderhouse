@@ -11,14 +11,14 @@
 
 body {
   background-color: black;
-  background-image: url(../images/marjan-blan-marjanblan-_kUxT8WkoeY-unsplash.jpg);
+  background-image: url();
 }
 /* estilos header del index*/
 #indexHeader {
   height: 800px;
   width: 100%;
   background-color:#c4ba9e;
- background-image: url(../images/glass-jar-full-of-honey-with-honey-spoon.jpg);
+ background-image: url(/clase6_desafio_complementario/root/images/glass-jar-full-of-honey-with-honey-spoon.jpg);
   background-position:center;
   background-repeat: no-repeat;
   background-size: cover;
