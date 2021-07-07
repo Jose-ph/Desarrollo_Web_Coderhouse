@@ -21,7 +21,7 @@
     min-height: 100%;
   }
 
-  .contenedorGrid > * {
+  .contenedorGrid > * { /* esto le da estilos a los hijos preguntar el selector */
 
     box-shadow: -1px 1px 7px 0px rgba(0,0,0,0.75);
     border-radius: 4px;
@@ -58,13 +58,13 @@
 
     display: grid;
     gap: 10px;
-    grid-template-areas:
+    grid-template:
 
-    "header"
-    "navBar"
-    "main"
-    "sideBar"
-    "footer"
+    "header" 100px
+    "navBar" 50px
+    "main" auto
+    "sideBar" 100px
+    "footer" 100px
 
 
     
@@ -73,21 +73,51 @@
   }
 
   /*estilo del grid para tablets*/
-  @media (min-width:600px){
+  @media only screen and  (min-width:600px){
 
     .contenedorGrid{
-      display: grid;
-    gap: 10px;
-    grid-template-areas:
 
-    "header header"
+     /*  grid-template-columns: 200px auto;
+      grid-template-rows: 100px 50px auto 100px;
+      */
+
+    /* grid-template-areas: */
+
+    /* "header header"
     "navBar navBar"
     "sideBar main"
     "footer footer"
-
+ */
 
     
+    /*;*/
+
+    /* esto es lo mismo que antes pero en uno*/
+    grid-template: 
+    "header header" 100px
+    ". navBar" 50px /*el punto es para q quede vacio*/
+    "sideBar main" auto
+    "footer footer" 100px /
+     200px  auto
     ;
     }
 
   }
+
+  /* estilo de grid para desktop */
+   @media only screen and  (min-width:900px){
+
+    .contenedorGrid{
+
+     
+     grid-template: 
+     "header header header" 100px
+     "navBar main sideBar" auto
+     "footer footer footer" 100px/
+     200px  auto 200px
+      
+     ;
+     }
+
+    
+   }
