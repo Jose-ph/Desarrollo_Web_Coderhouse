@@ -31,9 +31,24 @@
 
   .header{
     grid-area: header;
-    background-color: aqua;
+    
+    background-color:#c4ba9e;
+     
+      background-position:center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      /*flex-direction: column;*/
+    
+      justify-content: center;
+      align-items: center;
+      
+    }
 
-  }
+ 
+    
+
+  
   .navBar{
     grid-area: navBar;
     background-color: burlywood;
