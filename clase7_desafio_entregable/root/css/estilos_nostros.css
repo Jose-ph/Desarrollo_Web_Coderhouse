@@ -1,16 +1,273 @@
-.container {
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  
+  color: inherit;
+  list-style: none;
+  text-decoration: none;
+}
+html{
+  height: 100%;
+}
+body{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.2rem;
+  min-height: 100%;
+  background-image: url(../images/marjan-blan-marjanblan-_kUxT8WkoeY-unsplash.jpg);
+
+}
+
+.gridContainer > * { /*preguntar por este selector*/
+
+  box-shadow: -1px 1px 7px 0px rgba(0,0,0,0.75);
+  border-radius: 4px;
+  text-align: center;
+
+
+}
+
+.header{
+  grid-area: header;
+  background-color: rosybrown;
+  background-image: url(/clase7_desafio_entregable/root/images/glass-jar-full-of-honey-with-honey-spoon.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* estilos menu navegación */
+.navbar{
+  grid-area: navbar;
+  background-color: royalblue;
+  display: flex;
+  justify-content:stretch;
+  
+}
+
+ul {
+  list-style: none;
+  background-color:#c4ba9e;
+  border: 2px solid #000;
+  font-size: 0;
+      /* truco por el uso de inline-block*/
+}
+
+li {
+  display: inline-block;
+  width: auto;
+  position: relative;
+  font-size: 25px;
+  margin-right: 13px;
+  
+}
+
+li a {
+  text-decoration: none;
+}
+
+li a:hover {
+  color:#f8e12d;
+}
+
+ul ul {
+  position: absolute;
+  display: none;
+}
+
+ul ul li {
+  display: block;
+}
+
+ul li:hover ul {
+  display: block;
+}
+/* estilo menu navegacion fin */
+
+.sidebar{
+  grid-area: sidebar;
+  background-color: seagreen;
+}
+.main{
+  grid-area:main;
+  background-color: slateblue;
+}
+
+
+.footer{
+  grid-area: footer;
+  background-color: skyblue;
+}
+
+.contenedorLogo {
+
+  width: 100px;
+  height: 100px;
+  
+  background-image: url(../images/logo3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  
+}
+
+.tituloPortada{
+  background-color:#f8e12d;
+}
+
+
+
+.galeria {
+  width: 80%;
+  margin: auto;
+  
+  height: 310px;
+  background-color: tomato;
+   display: grid;
+   gap: 2px;
+  grid-template: 
+  "item1 item4" 
+  "item2 item5" 
+  "item3 item6" 
+
+  ;
+  justify-self: end; 
+}
+/* estilo mini galeria */
+.galeria .imgUno{
+  grid-area: item1;
+}
+
+.galeria .imgDos {
+
+  grid-area: item2;
+}
+
+.galeria .imgTres{
+  grid-area: item3;
+}
+.galeria .imgCuatro{
+  grid-area: item4;
+}
+
+.galeria .imgCinco {
+
+  grid-area: item5;
+}
+
+.galeria .imgSeis{
+  grid-area: item6;
+}
+
+.item{
+            min-height: 50px;
+            min-width: 50px;
+            background-color: aqua;
+            border: 2px solid #fff;
+        }
+        .item:hover{
+            transform: scale(1.2);
+            transition: 0.7s;
+            filter: sepia(1);
+            box-shadow: 5px 5px 10px 1px #000;
+          
+          
+          }
+
+
+
+
+
+/*estilos para dispositivo mas pequeño*/
+@media only screen and (min-width: 360px){  /* 320 600 1024*/
+
+  .gridContainer{
+
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "header header  header  header"
-      "navbar navbar navbar navbar"
-      "main main main main"
-      "footer footer footer footer";
+    gap: 10px;
+
+    grid-template: 
+    "header" 120px
+    "navbar" 90px
+    "main"   auto
+    "sidebar" 100px
+    "footer" 100px 
+     
+
+    
+
+
+    
+    
+    
+    ;
+  
+  
   }
 
+}
+/*estilos para dispositivo mediano */
 
- 
+@media only screen and (min-width: 600px){  /* 320 600 1024*/
+
+  .gridContainer{
+
+    display: grid;
+    gap: 10px;
+
+    grid-template: 
+    "header header" 100px
+    "navbar navbar" 50px
+    "sidebar main"   auto
+    
+    "footer footer" 100px /
+    200px  auto 
+     
+   /*la publicidad debe ponerse a la izq del main*/
+    
+
+
+    
+    
+    
+    ;
   
+  
+  }
+
+}
+
+/*estilo para desktop*/
+@media only screen and (min-width: 1024px){  /* 320 600 1024*/
+
+  .gridContainer{
+
+    display: grid;
+    gap: 10px;
+
+    grid-template: 
+    "header header header" 100px
+    
+    "navbar main sidebar"   auto
+    
+    "footer footer footer" 100px /
+    200px  auto 
+     
+   /*la publicidad debe ponerse a la izq del main*/
+    
+
+
+    
+    
+    
+    ;
+  
+  
+  }
+
+}
+
+
