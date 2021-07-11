@@ -37,6 +37,8 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  background: rgb(248,225,45);
+  background: radial-gradient(circle, rgba(248,225,45,1) 35%, rgba(196,186,158,1) 100%); 
 }
 /* estilos menu navegación */
 .navbar{
