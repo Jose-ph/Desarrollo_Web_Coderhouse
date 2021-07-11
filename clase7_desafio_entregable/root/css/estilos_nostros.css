@@ -116,10 +116,21 @@ ul li:hover ul {
   
 }
 
+.contenedorLogo:hover{
+  transform: rotate(37deg);
+  
+}
+
 .tituloPortada{
   background-color:#f8e12d;
 }
 
+.tituloPortada:hover{
+
+  transform: skew(38deg);
+
+
+}
 
 
 .galeria {
