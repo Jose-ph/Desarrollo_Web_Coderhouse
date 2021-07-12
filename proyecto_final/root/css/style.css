@@ -28,7 +28,7 @@ header {
   color:#f8e12d ;
   
 }
-
+/* 
 header .redes {
 
   display: flex;
@@ -43,7 +43,7 @@ header .redes i {
 }
 header .redes i:hover{
   color: white;
-}
+} */
 
 header .navegacion ul {
 
@@ -92,17 +92,78 @@ header .navegacion ul li:hover{
 
 }
 
+#novedades {
+  display: flex;
+  margin-top: 3%;
+  padding: 2%;
+  justify-content:space-around;
+  align-items: center;
+  
+
+}
+
+
+
 #novedades h2 {
   padding: 5%;
 }
 
 #novedades p {
   padding: 5%;
+  font-family: 'Roboto', sans-serif;
+  
+  
+}
+#novedades img {
+  width: 50%;
+  height: 100%;
+  margin-left: 2%;
 }
 
-
-#nosotros {
-
-
+.contenedorNoticias {
+  display: flex;
+  flex-direction: column;
   background-color: #f8e12d;
+}
+ /* Estilos del footer */ 
+
+ footer{
+
+  
+  
+    display: flex;
+    justify-content: center;
+    
+    background-color:black;
+    color:#f8e12d ;
+    
+  
+
+ }
+
+
+footer .redes {
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+
+}
+
+footer .redes li {
+
+  margin-left: 25px;
+}
+footer.redes i {
+  color: #f8e12d;
+  
+  
+}
+footer .redes i:hover{
+  color: white;
+}
+
+footer h3 {
+  align-items: flex-start;
 }
