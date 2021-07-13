@@ -121,9 +121,17 @@
   }
   
   .contenedorNoticias {
+      width: 50%;
     display: flex;
     flex-direction: column;
     background-color: #f8e12d;
+    padding: 15px;
+    
+  }
+  .contenedorNoticias ul li {
+      margin-left: 3%;
+      list-style: square;
+      
   }
    /* Estilos del footer */ 
    footer{
