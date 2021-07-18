@@ -168,3 +168,19 @@ color: white;
 footer h3 {
 align-items: flex-start;
 }
+
+
+/* estilos para adaptar Bootstrap */ 
+
+
+
+.navbar .nav-item .nav-link {
+  
+  color: #f8e12d;
+}
+
+.navbar-toggler{
+
+  background-color: #f8e12d;
+
+}
