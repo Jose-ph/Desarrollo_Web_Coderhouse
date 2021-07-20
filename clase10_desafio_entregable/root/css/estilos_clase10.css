@@ -9,3 +9,35 @@
         text-decoration: none;
       
 }
+
+body{
+
+  
+        background-color: #c4ba9e;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5rem;
+      }
+
+
+  header {
+  
+        background-color:black;
+        color:#f8e12d ;
+        
+      }
+
+
+/* estilos para adaptar Bootstrap */ 
+
+
+
+#toggleMobileMenu li a:hover {
+  
+        color: #f8e12d;
+      }
+      
+      .navbar-toggler{
+      
+        background-color: #c4ba9e;
+      
+      }
