@@ -21,10 +21,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 <!-- agrega estilos propios -->
-<!-- <link rel="stylesheet" href="css/style.css"> -->
+<!--  <link rel="stylesheet" href="css/style.css">  -->
 
-<link rel="stylesheet" href="css/estilos_bootstrap.css">
-
+ <link rel="stylesheet" href="css/estilos_clase10.css"> 
+ 
 
   <!--Agrega FontAwesome-->
   <script src="https://kit.fontawesome.com/a41ca17fd7.js" crossorigin="anonymous"></script>
@@ -33,18 +33,19 @@
 <body>
  
  
-  <header class="container-fluid ">
+  <header class="container-fluid">
 
  
    
-    <nav class="navbar  fixed-top navbar-expand-lg navbar-dark bg-dark p-3">
-      <div class="container-fluid">
-         <a href="" class="navbar-brand " ><img src="images/logo3.png" width="100" height="100" alt="logo miel del campe"></a>
+   <!--  <nav class="navbar  fixed-top navbar-expand-lg navbar-dark bg-dark p-3 ">
+
+      <div class="container-fluid " >
+         <a href="" class="navbar-brand  " ><img src="images/logo3.png" width="100" height="100" alt="logo miel del campe"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <div class="collapse navbar-collapse   " id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
             </li>
@@ -54,8 +55,9 @@
             <li class="nav-item">
               <a class="nav-link " href="pages/servicios.html" >Servicios</a>
             </li>
+           
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="pages/tienda.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle " href="pages/tienda.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Tienda
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -65,18 +67,51 @@
                 <li><a class="dropdown-item" href="pages/tienda.html">Medios de pago</a></li>
               </ul>
             </li>
-
             <li class="nav-item">
               <a class="nav-link " href="pages/contacto.html" >Contacto</a>
             </li>
+
+           
            
           </ul>
           
         </div>
       </div>
-    </nav>
+    </nav> -->
     
-  
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark p-3 fixed-top"> 
+
+      <a href="#" class="navbar-brand">
+
+        <img class="d-inline-block align-top" src="images/logo3.png" width="100" height="100" alt="logo miel del campe">
+        
+        
+      </a>
+      <button class="navbar-toggler" type="button" 
+      data-bs-toggle ="collapse"
+      data-bs-target="#toggleMobileMenu"
+      aria-controls="toggleMobileMenu"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+        
+      >
+
+      <span class="navbar-toggler-icon"></span>
+
+      </button>
+
+      <div class="collapse navbar-collapse" id="toggleMobileMenu">
+        <ul class="navbar-nav ms-auto text-center">
+          <li><a href="" class="nav-link">Inicio</a></li>
+          <li><a href="" class="nav-link">Nosotros</a></li>
+          <li><a href="" class="nav-link">Servicios</a></li>
+          <li><a href="" class="nav-link">Tienda</a></li>
+          <li><a href="" class="nav-link">Contacto</a></li>
+      </div>
+
+
+    </nav>
        
        
   </header>
