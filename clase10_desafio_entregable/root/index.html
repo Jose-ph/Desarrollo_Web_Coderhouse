@@ -1,43 +1,53 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Del CAMPE</title>
+    <link
+      rel="shortcut icon"
+      href="https://img.icons8.com/flat-round/50/000000/bee--v1.png"
+    />
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Del CAMPE</title>
-  <link rel="shortcut icon" href="https://img.icons8.com/flat-round/50/000000/bee--v1.png">
-
-  <!--Agrego tipo de letra ROBOTO  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
-<!-- grega tipo de letra pacifico -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
+    <!--Agrego tipo de letra ROBOTO  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <!-- grega tipo de letra pacifico -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
 
-<!-- agrega estilos propios -->
-<!--  <link rel="stylesheet" href="css/style.css">  -->
+    <!-- agrega estilos propios -->
+    <!--  <link rel="stylesheet" href="css/style.css">  -->
 
- <link rel="stylesheet" href="css/estilos_clase10.css"> 
- 
+    <link rel="stylesheet" href="css/estilos_clase10.css" />
 
-  <!--Agrega FontAwesome-->
-  <script src="https://kit.fontawesome.com/a41ca17fd7.js" crossorigin="anonymous"></script>
-</head>
+    <!--Agrega FontAwesome-->
+    <script
+      src="https://kit.fontawesome.com/a41ca17fd7.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
- 
- 
-  <header class="container-fluid">
-
- 
-   
-   <!--  <nav class="navbar  fixed-top navbar-expand-lg navbar-dark bg-dark p-3 ">
+  <body>
+    <header class="container-fluid">
+      <!--  <nav class="navbar  fixed-top navbar-expand-lg navbar-dark bg-dark p-3 ">
 
       <div class="container-fluid " >
          <a href="" class="navbar-brand  " ><img src="images/logo3.png" width="100" height="100" alt="logo miel del campe"></a>
@@ -78,88 +88,129 @@
         </div>
       </div>
     </nav> -->
-    
 
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark p-3 fixed-top"> 
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark p-3 fixed-top">
+        <a href="#" class="navbar-brand">
+          <img
+            class="d-inline-block align-top"
+            src="images/logo3.png"
+            width="100"
+            height="100"
+            alt="logo miel del campe"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#toggleMobileMenu"
+          aria-controls="toggleMobileMenu"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <a href="#" class="navbar-brand">
+        <div class="collapse navbar-collapse" id="toggleMobileMenu">
+          <ul class="navbar-nav ms-auto text-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/servicios.html">Servicios</a>
+            </li>
 
-        <img class="d-inline-block align-top" src="images/logo3.png" width="100" height="100" alt="logo miel del campe">
-        
-        
-      </a>
-      <button class="navbar-toggler" type="button" 
-      data-bs-toggle ="collapse"
-      data-bs-target="#toggleMobileMenu"
-      aria-controls="toggleMobileMenu"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-        
-      >
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="pages/tienda.html"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Tienda
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="pages/tienda.html">Miel</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="pages/tienda.html">Propóleo</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="pages/tienda.html"
+                    >Medios de pago</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
-      <span class="navbar-toggler-icon"></span>
+    <main>
+      <section id="portada">
+        <div class="col-12">
+          <h1 id="tituloPrincipal">miel natural</h1>
+        </div>
+      </section>
 
-      </button>
+      <section id="novedades">
+        <div class="contenedorNoticias">
+          <h2>Nuevas certificaciones</h2>
+          <p>
+            Estamos muy contentos de contarles que logramos la obtención de dos
+            nuevas certificaciones de calidad y producción. <br />Seguimos
+            trabajando para brindarte el mejor y más natural producto!
+          </p>
+        </div>
+        <!--  <img src="images/Miel-de-Abejas-optimizada.jpg" alt="se muestra una cuchara en la que se vierte miel"> -->
+      </section>
+    </main>
 
-      <div class="collapse navbar-collapse" id="toggleMobileMenu">
-        <ul class="navbar-nav ms-auto text-center">
-          <li><a href="" class="nav-link">Inicio</a></li>
-          <li><a href="" class="nav-link">Nosotros</a></li>
-          <li><a href="" class="nav-link">Servicios</a></li>
-          <li><a href="" class="nav-link">Tienda</a></li>
-          <li><a href="" class="nav-link">Contacto</a></li>
-      </div>
+    <footer>
+      <h3>Redes !</h3>
 
+      <ul class="redes">
+        <li>
+          <a href="https://facebook.com" target="_blank"
+            ><i class="fab fa-facebook"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://instagram.com" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://twitter.com" target="_blank"
+            ><i class="fab fa-twitter-square"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://youtube.com/" target="_blank"
+            ><i class="fab fa-youtube"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
 
-    </nav>
-       
-       
-  </header>
-
-  <main >
-
-    <section id="portada">
-      <div class="col-12">
-      <h1 id="tituloPrincipal">miel natural  </h1>
-    </div>
-      
-    </section>
-
-    <section id="novedades">
-      <div class="contenedorNoticias">
-      <h2>Nuevas certificaciones</h2>
-      <p>Estamos muy contentos de contarles que logramos la obtención de dos nuevas certificaciones de calidad
-        y producción. <br>Seguimos trabajando para brindarte el mejor y más natural producto!
-      </p>
-    </div>
-     <!--  <img src="images/Miel-de-Abejas-optimizada.jpg" alt="se muestra una cuchara en la que se vierte miel"> -->
-    </section>
-    
-    
-  </main>
-
-  <footer>
-       
-    <h3> Redes !</h3> 
-
-    
-
-    <ul class="redes">
-      <li><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
-      <li><a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
-      <li><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
-      <li><a href="https://youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>
-
-    </ul>
-
-  </footer>
-
-
-
-
-  
- <!-- Option 1: Bootstrap Bundle with Popper -->
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
-
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
