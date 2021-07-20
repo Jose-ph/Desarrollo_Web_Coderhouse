@@ -27,6 +27,44 @@ body{
       }
 
 
+
+
+      #novedades {
+        display: flex;
+        margin-top: 3%;
+        padding: 2%;
+        justify-content:space-around;
+        align-items: center;
+        
+      
+      }
+      
+      
+      
+      #novedades h2 {
+        padding: 5%;
+      }
+      
+      #novedades p {
+        padding: 5%;
+        font-family: 'Roboto', sans-serif;
+        
+        
+      }
+      #novedades img {
+        width: 50%;
+        height: 100%;
+        margin-left: 2%;
+      }
+      
+      .contenedorNoticias {
+        display: flex;
+        flex-direction: column;
+        background-color: #f8e12d;
+      }
+      
+
+
 /* estilos para adaptar Bootstrap */ 
 
 
