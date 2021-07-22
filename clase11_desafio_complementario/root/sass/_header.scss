@@ -1,0 +1,28 @@
+/*header con la navegacion anidada*/
+header {
+  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    background-color:black;
+    color:#f8e12d ;
+
+    .navegacion{
+
+        ul{
+            display: flex;
+            flex-direction: row;
+
+            li{
+                padding: 0.5rem;
+
+                :hover{
+                    color: #c4ba9e;
+                }
+            }
+        }
+
+    }
+    
+  }

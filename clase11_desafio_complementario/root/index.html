@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Del CAMPE</title>
+    <link
+      rel="shortcut icon"
+      href="https://img.icons8.com/flat-round/50/000000/bee--v1.png"
+    />
+
+    <!--Agrego tipo de letra ROBOTO  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <!-- grega tipo de letra pacifico -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- agrega estilos propios -->
+    <!--  <link rel="stylesheet" href="css/style.css">  -->
+
+    <link rel="stylesheet" href="css/estilos_clase10.css" />
+
+    <!--Agrega FontAwesome-->
+    <script
+      src="https://kit.fontawesome.com/a41ca17fd7.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header class="container-fluid">
+      <!--  <nav class="navbar  fixed-top navbar-expand-lg navbar-dark bg-dark p-3 ">
+
+      <div class="container-fluid " >
+         <a href="" class="navbar-brand  " ><img src="images/logo3.png" width="100" height="100" alt="logo miel del campe"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse   " id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="pages/servicios.html" >Servicios</a>
+            </li>
+           
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle " href="pages/tienda.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Tienda
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="pages/tienda.html">Miel</a></li>
+                <li><a class="dropdown-item" href="pages/tienda.html">Propóleo</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="pages/tienda.html">Medios de pago</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="pages/contacto.html" >Contacto</a>
+            </li>
+
+           
+           
+          </ul>
+          
+        </div>
+      </div>
+    </nav> -->
+
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark p-3 fixed-top">
+        <a href="#" class="navbar-brand">
+          <img
+            class="d-inline-block align-top"
+            src="images/logo3.png"
+            width="100"
+            height="100"
+            alt="logo miel del campe"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#toggleMobileMenu"
+          aria-controls="toggleMobileMenu"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="toggleMobileMenu">
+          <ul class="navbar-nav ms-auto text-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/servicios.html">Servicios</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="pages/tienda.html"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Tienda
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="pages/tienda.html">Miel</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="pages/tienda.html">Propóleo</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="pages/tienda.html"
+                    >Medios de pago</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <!-- agrega carousel de Bootstrap -->
+     <section id="slides">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/abejas.jpg" class="d-block w-100" alt="abeja">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Miel-de-Abejas-optimizada.jpg" class="d-block w-100" alt="abeja">
+          </div>
+          <div class="carousel-item">
+            <img src="images/abejas-y-apicultura-3.jpg" class="d-block w-100" alt="abeja">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+     </section>
+
+     <section id="novedades" class="row">
+
+      <div class="contenedorNoticias col xs-12 lg-6">
+      <h2>Nuevas certificaciones</h2>
+      <p>Estamos muy contentos de contarles que logramos la obtención de dos nuevas certificaciones de calidad
+        y producción. <br>Seguimos trabajando para brindarte el mejor y más natural producto!
+      </p>
+      <img class="col xs-12 lg-6" src="images/Miel-de-Abejas-optimizada.jpg" alt="se muestra una cuchara en la que se vierte miel">
+    </div>
+      
+    </section>
+
+    
+
+
+    </main>
+
+    <footer>
+
+      <div class="card text-center">
+        <div class="card-header">
+          Seguinos en nuestras Redes !
+        </div>
+        <div class="card-body">
+          <ul class="redes">
+            <li>
+              <a href="https://facebook.com" target="_blank"
+                ><i class="fab fa-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://instagram.com" target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://twitter.com" target="_blank"
+                ><i class="fab fa-twitter-square"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://youtube.com/" target="_blank"
+                ><i class="fab fa-youtube"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="card-footer text-muted">
+          del campe
+        </div>
+      </div>
+
+
+      <!-- <h3>Redes !</h3>
+
+      <ul class="redes">
+        <li>
+          <a href="https://facebook.com" target="_blank"
+            ><i class="fab fa-facebook"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://instagram.com" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://twitter.com" target="_blank"
+            ><i class="fab fa-twitter-square"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://youtube.com/" target="_blank"
+            ><i class="fab fa-youtube"></i
+          ></a>
+        </li>
+      </ul> -->
+    </footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
