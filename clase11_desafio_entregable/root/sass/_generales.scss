@@ -1,5 +1,4 @@
-/* estilos generales */
-$colorFondo:#c4ba9e;
+
 
 
 /*Reset*/
@@ -13,10 +12,12 @@ $colorFondo:#c4ba9e;
     text-decoration: none;
   }
 
+ /* estilos generales */
 
-html { 
+  $colorFondo:#c4ba9e;
+  html { 
     font-size: 1.5rem;
- }
+  }
  
 
  
