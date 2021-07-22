@@ -1,0 +1,23 @@
+
+#portada {
+
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../images/miel-casera-tarro-vista-frontal_23-2148346663.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #tituloPrincipal {
+  
+    font-size: 5rem;
+    color: black;
+    font-family: 'Pacifico', cursive;
+    text-transform: capitalize;
+  
+  
+  }
