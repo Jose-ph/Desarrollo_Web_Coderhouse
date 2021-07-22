@@ -1,3 +1,5 @@
+/* estilos generales */
+/*Reset*/
 * {
   margin: 0;
   padding: 0;
@@ -8,22 +10,12 @@
   text-decoration: none;
 }
 
-body {
-  background-color: #c4ba9e;
-  font-family: "Roboto", Sans-serif;
+html {
   font-size: 1.5rem;
 }
 
-body header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: black;
-  color: #f8e12d;
+body {
+  font-family: 'Roboto' , sans-serif;
+  background-color: #c4ba9e;
 }
 /*# sourceMappingURL=estilos.css.map */
