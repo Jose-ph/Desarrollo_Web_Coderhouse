@@ -1,3 +1,4 @@
+/*header con la navegacion anidada*/
 header {
   
     display: flex;
@@ -6,5 +7,18 @@ header {
     
     background-color:black;
     color:#f8e12d ;
+
+    .navegacion{
+
+        ul{
+            display: flex;
+            flex-direction: row;
+
+            li{
+                padding: 0.5rem;
+            }
+        }
+
+    }
     
   }

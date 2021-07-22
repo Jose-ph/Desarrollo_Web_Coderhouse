@@ -19,6 +19,7 @@ body {
   background-color: #c4ba9e;
 }
 
+/*header con la navegacion anidada*/
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -30,5 +31,19 @@ header {
           align-items: center;
   background-color: black;
   color: #f8e12d;
+}
+
+header .navegacion ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+header .navegacion ul li {
+  padding: 0.5rem;
 }
 /*# sourceMappingURL=estilos.css.map */
