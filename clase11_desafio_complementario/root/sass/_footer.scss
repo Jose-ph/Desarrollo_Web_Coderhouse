@@ -1,5 +1,5 @@
 /* Estilos del footer */ 
-footer{
+.footer{
   
     
     width: 100%;
@@ -12,7 +12,7 @@ footer{
     color:#f8e12d ;
 
 
-    .redes {
+    .footer__redes {
   
         display: flex;
         justify-content: center;
@@ -45,6 +45,6 @@ footer{
   
   
   
-  footer h3 {
+  .footer__titulo {
   align-items: flex-start;
   }

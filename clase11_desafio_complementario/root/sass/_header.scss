@@ -1,5 +1,5 @@
 /*header con la navegacion anidada*/
-header {
+.header {
   
     display: flex;
     justify-content: space-around;
@@ -8,7 +8,7 @@ header {
     background-color:black;
     color:#f8e12d ;
 
-    .navegacion{
+    .header__navegacion{
 
         ul{
             display: flex;
@@ -23,6 +23,11 @@ header {
             }
         }
 
+    }
+
+    .header__logo{
+
+        background-color: red;
     }
     
   }

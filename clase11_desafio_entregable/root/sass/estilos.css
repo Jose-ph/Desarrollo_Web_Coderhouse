@@ -20,7 +20,7 @@ body {
 }
 
 /*header con la navegacion anidada*/
-header {
+.header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -33,7 +33,7 @@ header {
   color: #f8e12d;
 }
 
-header .navegacion ul {
+.header .header__navegacion ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -43,11 +43,11 @@ header .navegacion ul {
           flex-direction: row;
 }
 
-header .navegacion ul li {
+.header .header__navegacion ul li {
   padding: 0.5rem;
 }
 
-header .navegacion ul li :hover {
+.header .header__navegacion ul li :hover {
   color: #c4ba9e;
 }
 

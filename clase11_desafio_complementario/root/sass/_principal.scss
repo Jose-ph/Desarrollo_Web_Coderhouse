@@ -1,4 +1,4 @@
-#portadaTienda {
+.portada {
   
     height: 100vh;
     width: 100vw;
@@ -11,7 +11,7 @@
     align-items: center;
   }
   
-  #tituloPrincipal {
+  .portada__tituloPrincipal {
   
     font-size: 5rem;
     color: black;
@@ -19,33 +19,6 @@
     text-transform: capitalize;
   
   
-  }
-
-  #novedades {
-    display: flex;
-    margin-top: 3%;
-    padding: 2%;
-    justify-content:space-around;
-    align-items: center;
-
-    h2 {
-        padding: 5%;
-      }
-
-
-    
-  
-  }
-  
-  
-  
-  
-  
-  #novedades p {
-    padding: 5%;
-    font-family: 'Roboto', sans-serif;
-    
-    
   }
 
   .contactanos{
@@ -70,7 +43,7 @@
     
   }
   
-  .contenedorImagenContacto{ 
+  .contenedorGeneral__ImagenContacto{ 
 
     img {
         border-radius: 50%;
@@ -80,23 +53,25 @@
 
   } 
   
-  .contactanos{
+  .contactanos__titulo{
 
-    h2 {
+    
   
         margin: 10px;
-      }
+      
 
   } 
   
-  .formularioContacto{
+  .contactanos__formulario{
   
     display: flex;
     flex-direction: column; 
     justify-content: center;
+
+    label{
+  
+      margin: 5px;
+    }
   }
   
-  .formularioContacto label{
   
-    margin: 5px;
-  }
