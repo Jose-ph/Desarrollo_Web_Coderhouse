@@ -80,6 +80,45 @@ body {
   text-transform: capitalize;
 }
 
+/*estilos nosotros*/
+.novedades {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 3%;
+  padding: 2%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.novedades__noticias .noticias__titulo {
+  padding: 5%;
+}
+
+.novedades__noticias .noticias__parrafo {
+  padding: 5%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.novedades__imagen {
+  width: 500px;
+  height: 500px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.publicidad__titulo--mayuscula {
+  text-transform: uppercase;
+}
+
+.aside__parrafo--color {
+  color: blue;
+}
+
+/*estilos contacto*/
 .contactanos {
   display: -webkit-box;
   display: -ms-flexbox;
