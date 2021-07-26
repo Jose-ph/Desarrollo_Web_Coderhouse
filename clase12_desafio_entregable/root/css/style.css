@@ -1,0 +1,187 @@
+/*Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  color: inherit;
+  list-style: none;
+  text-decoration: none;
+}
+
+body{
+
+  
+  background-color: #c4ba9e;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+}
+/* estilos del header */ 
+
+header {
+  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+  background-color:black;
+  color:#f8e12d ;
+  
+}
+/* 
+header .redes {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+header .redes i {
+  color: #f8e12d;
+  padding: 0.5rem;
+}
+header .redes i:hover{
+  color: white;
+} */
+
+header .navegacion ul {
+
+  display: flex;
+  flex-direction: row;
+
+}
+
+header .navegacion ul li {
+
+  padding: 0.5rem;
+}
+
+
+header .navegacion ul li:hover{
+  color: #c4ba9e;
+}
+
+.focusNav {
+  color: #c4ba9e;
+}
+
+
+/*estilos del main en el index*/
+
+#portada {
+
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../images/miel-casera-tarro-vista-frontal_23-2148346663.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#tituloPrincipal {
+
+  font-size: 5rem;
+  color: black;
+  font-family: 'Pacifico', cursive;
+  text-transform: capitalize;
+
+
+}
+
+#novedades {
+  display: flex;
+  margin-top: 3%;
+  padding: 2%;
+  justify-content:space-around;
+  align-items: center;
+  
+
+}
+
+
+
+#novedades h2 {
+  padding: 5%;
+}
+
+#novedades p {
+  padding: 5%;
+  font-family: 'Roboto', sans-serif;
+  
+  
+}
+#novedades img {
+  width: 50%;
+  height: 100%;
+  margin-left: 2%;
+}
+
+.contenedorNoticias {
+  display: flex;
+  flex-direction: column;
+  background-color: #f8e12d;
+}
+ /* Estilos del footer */ 
+ footer{
+
+  
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  background-color:black;
+  color:#f8e12d ;
+  
+
+
+}
+
+
+footer .redes {
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+footer .redes li {
+
+margin-left: 25px;
+}
+footer.redes i {
+color: #f8e12d;
+
+
+}
+footer .redes i:hover{
+color: white;
+}
+
+footer h3 {
+align-items: center;
+}
+
+
+/* estilos para adaptar Bootstrap */ 
+
+
+
+.navbar .nav-item .nav-link {
+  
+  color: #f8e12d;
+}
+
+.navbar-toggler{
+
+  background-color: #f8e12d;
+
+}
