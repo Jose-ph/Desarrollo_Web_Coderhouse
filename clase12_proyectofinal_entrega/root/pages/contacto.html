@@ -21,7 +21,10 @@
 <!-- agrega estilos propios -->
   <!-- <link rel="stylesheet" href="../css/style.css"> -->
  <!--  <link rel="stylesheet" href="../css/estilos_servicios.css"> -->
- <link rel="stylesheet" href="../css/estilos_contacto.css">
+<!--  <link rel="stylesheet" href="../css/estilos_contacto.css"> -->
+
+<!-- estilos desde sass -->
+<link rel="stylesheet" href="../sass/estilos.css">
 
   <!--Agrega FontAwesome-->
   <script src="https://kit.fontawesome.com/a41ca17fd7.js" crossorigin="anonymous"></script>
@@ -29,10 +32,10 @@
 
 <body>
 
-  <header>
+  <header class="header"> <!-- bloque -->
 
-    <a href="../index.html" class="logo"><img src="../images/logo3.png" width="120px" height="120px" alt="logo miel del campe"></a>
-    <nav class="navegacion">
+    <a href="../index.html" class="header__logo"><img src="../images/logo3.png" width="120px" height="120px" alt="logo miel del campe"></a>
+    <nav class="header__navegacion">
       <ul>
   
         <li><a href="../index.html" target="_blank">Inicio</a></li>
@@ -50,14 +53,14 @@
 
   <main>
 
-    <section id="portadaTienda">
-      <h1 id="tituloPrincipal">Contacto </h1>
+    <section id="portada"><!-- bloque -->
+      <h1 id="portada__tituloPrincipal">Contacto </h1>
       
     </section>
 
     <div class="contenedorGeneral">
 
-      <div class="contenedorImagenContacto">
+      <div class="contenedorGeneral__ImagenContacto">
   
         <img src="../images/WhatsApp Image 2021-07-13 at 12.41.26 PM(1).jpeg" width="400px" height="400px"  alt="se muestra un recipiento con miel sobre una mesa">
         
@@ -66,7 +69,7 @@
     <div class="contactanos">
     <h2>¿Quieres contactarnos?</h2>
   
-    <form action="" method="POST" class="formularioContacto">
+    <form action="" method="POST" class="contactanos__formulario">
       <label for="nombre_apellido">Nombre y apellido</label>
       <input type="text" name="nombre_apellido" placeholder="Juan Pérez" required>
       <br>
@@ -88,7 +91,7 @@
   
       <br>
   
-      <div class="posicionCheckbox">
+      <div class="contactanos__checkbox">
       <label for="chek_uno">Deseo recibir información de "Del CAMPE"</label>
        <input type="checkbox" name="check_uno">
       </div>
@@ -103,8 +106,8 @@
   
   
     
-    <h2>También puedes visitarnos!</h2>
-    <iframe
+    <h2 class="contactanos__tituloSecundario">También puedes visitarnos!</h2>
+    <iframe class="contactanos__iframe"
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3276.060426551287!2d-58.28253618516656!3d-34.80442158040794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a3295f7ece6d43%3A0x97c700e4e43612db!2sMunicipalidad%20de%20Florencio%20Varela!5e0!3m2!1ses-419!2sar!4v1624394253722!5m2!1ses-419!2sar"
       width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
   
@@ -120,11 +123,11 @@
  
 
  
-    <footer>
+    <footer class="footer">
   
-      <h3>Seguinos en nuestras Redes !</h3>
+      <h3 class="footer_titulo">Seguinos en nuestras Redes !</h3>
 
-      <ul class="redes">
+      <ul class="footer__redes">
         <li><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
         <li><a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
         <li><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a></li>

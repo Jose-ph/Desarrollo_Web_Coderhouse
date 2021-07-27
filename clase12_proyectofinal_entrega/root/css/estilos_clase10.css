@@ -1,0 +1,107 @@
+*{
+    
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+        color: inherit;
+        list-style: none;
+        text-decoration: none;
+      
+}
+
+body{
+
+  
+        background-color: #c4ba9e;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5rem;
+      }
+
+
+  header {
+  
+        background-color:black;
+        color:#f8e12d ;
+        
+      }
+
+
+
+
+      #novedades {
+        display: flex;
+        margin-top: 3%;
+        padding: 2%;
+        justify-content:space-around;
+        align-items: center;
+        
+      
+      }
+      
+      
+      
+      #novedades h2 {
+        padding: 5%;
+      }
+      
+      #novedades p {
+        padding: 5%;
+        font-family: 'Roboto', sans-serif;
+        
+        
+      }
+      #novedades img {
+        width: 50%;
+        height: 100%;
+        margin-left: 2%;
+      }
+      
+      .contenedorNoticias {
+        display: flex;
+        flex-direction: column;
+        background-color: #f8e12d;
+      }
+      
+
+
+/* estilos para adaptar Bootstrap */ 
+
+
+
+#toggleMobileMenu li a:hover {
+  
+        color: #f8e12d;
+      }
+      
+      .navbar-toggler{
+      
+        background-color: #c4ba9e;
+      
+      }
+
+
+footer .card-header{
+
+
+  background-color:black;
+  color:#f8e12d ;
+}
+
+footer .card-footer {
+
+
+  background-color:black;
+  color:#f8e12d ;
+}
+
+footer .card-body{
+  background-color: black;
+}
+
+footer .card-body ul li a {
+
+
+  color: #f8e12d ;
+
+}

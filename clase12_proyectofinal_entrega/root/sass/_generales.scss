@@ -1,0 +1,28 @@
+
+
+
+/*Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    color: inherit;
+    list-style: none;
+    text-decoration: none;
+  }
+
+ /* estilos generales */
+
+  $colorFondo:#c4ba9e;
+  html { 
+    font-size: 1.5rem;
+  }
+ 
+
+ 
+ body{
+     font-family: 'Roboto' , sans-serif;
+     background-color: $colorFondo ;
+
+ }
