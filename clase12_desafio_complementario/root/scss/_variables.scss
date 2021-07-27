@@ -36,7 +36,8 @@ $grays: (
 // fusv-enable
 
 // scss-docs-start color-variables
-$blue:    #0d6efd !default;
+//$blue:    #0d6efd !default;            //MODIFICADO
+$colorCustom: #f8e12d !default;
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #d63384 !default;
@@ -51,7 +52,8 @@ $cyan:    #0dcaf0 !default;
 
 // scss-docs-start colors-map
 $colors: (
-  "blue":       $blue,
+  //"blue":       $blue,        //MODIFICADO
+  "colorCustom": $colorCustom,
   "indigo":     $indigo,
   "purple":     $purple,
   "pink":       $pink,
@@ -68,7 +70,7 @@ $colors: (
 // scss-docs-end colors-map
 
 // scss-docs-start theme-color-variables
-$primary:       $blue !default;
+$primary:        $colorCustom !default;  //$blue !default;           //MODIFICADO
 $secondary:     $gray-600 !default;
 $success:       $green !default;
 $info:          $cyan !default;
@@ -100,7 +102,7 @@ $color-contrast-dark:      $black !default;
 $color-contrast-light:     $white !default;
 
 // fusv-disable
-$blue-100: tint-color($blue, 80%) !default;
+/* $blue-100: tint-color($blue, 80%) !default;            //MODIFICADO
 $blue-200: tint-color($blue, 60%) !default;
 $blue-300: tint-color($blue, 40%) !default;
 $blue-400: tint-color($blue, 20%) !default;
@@ -108,7 +110,20 @@ $blue-500: $blue !default;
 $blue-600: shade-color($blue, 20%) !default;
 $blue-700: shade-color($blue, 40%) !default;
 $blue-800: shade-color($blue, 60%) !default;
-$blue-900: shade-color($blue, 80%) !default;
+$blue-900: shade-color($blue, 80%) !default; */
+
+
+$colorCustom-100: tint-color($colorCustom, 80%) !default;  
+$colorCustom-200: tint-color($colorCustom, 60%) !default;
+$colorCustom-300: tint-color($colorCustom, 40%) !default;
+$colorCustom-400: tint-color($colorCustom, 20%) !default;
+$colorCustom-500: $colorCustom !default;
+$colorCustom-600: shade-color($colorCustom, 20%) !default;
+$colorCustom-700: shade-color($colorCustom, 40%) !default;
+$colorCustom: shade-color($colorCustom, 60%) !default;
+$colorCustom: shade-color($colorCustom, 80%) !default;
+
+
 
 $indigo-100: tint-color($indigo, 80%) !default;
 $indigo-200: tint-color($indigo, 60%) !default;

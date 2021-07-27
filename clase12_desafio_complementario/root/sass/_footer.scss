@@ -22,9 +22,9 @@ footer{
   
             margin-left: 25px;
 
-            :hover{
-                color: white;
-                }
+            //:hover{
+              //  color: white;
+                //}
 
             i {
                 color: #f8e12d;
@@ -47,4 +47,21 @@ footer{
   
   footer h3 {
   align-items: flex-start;
+  }
+
+
+  // uso del map para footer cada icono tiene un hover de color disinto
+
+  $li-red-hover: (
+      li-facebook: red,
+      li-instagram: blue,
+      li-twitter: green,
+
+
+  );
+
+  @each $li, $color in $li-red-hover {
+      .footer__social--#{$li}:hover{
+          color:$color
+      }
   }
