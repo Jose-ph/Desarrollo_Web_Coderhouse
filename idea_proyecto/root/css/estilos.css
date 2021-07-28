@@ -1,0 +1,38 @@
+
+/*Agrega letra Pacifico google fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+
+/*Agrega reset*/
+
+
+
+/*estilos body*/
+
+
+body{
+    
+    /*font-family: 'Pacifico', cursive;*/
+    
+    overflow-x: hidden;
+}
+
+
+/*Estilos Menu-Navbar*/
+
+#menu a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+
+}
+
+#menu button{
+
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
