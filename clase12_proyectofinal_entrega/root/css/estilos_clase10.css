@@ -105,3 +105,16 @@ footer .card-body ul li a {
   color: #f8e12d ;
 
 }
+
+
+
+
+/*estilol animacion*/
+
+.animado {
+
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 10s; /* don't forget to set a duration! */
+
+
+}

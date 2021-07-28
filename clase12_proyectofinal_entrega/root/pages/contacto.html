@@ -2,63 +2,136 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Del CAMPE</title>
-  <link rel="shortcut icon" href="https://img.icons8.com/flat-round/50/000000/bee--v1.png">
+  <link
+    rel="shortcut icon"
+    href="https://img.icons8.com/flat-round/50/000000/bee--v1.png"
+  />
 
   <!--Agrego tipo de letra ROBOTO  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
-<!-- grega tipo de letra pacifico -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+    rel="stylesheet"
+  />
+  <!-- grega tipo de letra pacifico -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+    rel="stylesheet"
+  />
 
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous"
+  />
 
-<!-- agrega estilos propios -->
-  <!-- <link rel="stylesheet" href="../css/style.css"> -->
- <!--  <link rel="stylesheet" href="../css/estilos_servicios.css"> -->
-<!--  <link rel="stylesheet" href="../css/estilos_contacto.css"> -->
+  <!-- agrega estilos propios -->
+  <!--  <link rel="stylesheet" href="css/style.css">  -->
 
-<!-- estilos desde sass -->
-<link rel="stylesheet" href="../sass/estilos.css">
+  <link rel="stylesheet" href="../sass/estilos.css" />
 
   <!--Agrega FontAwesome-->
-  <script src="https://kit.fontawesome.com/a41ca17fd7.js" crossorigin="anonymous"></script>
+  <script
+    src="https://kit.fontawesome.com/a41ca17fd7.js"
+    crossorigin="anonymous"
+  ></script>
 </head>
 
 <body>
 
-  <header class="header"> <!-- bloque -->
+  
+  <header class="container-fluid">
+     
 
-    <a href="../index.html" class="header__logo"><img src="../images/logo3.png" width="120px" height="120px" alt="logo miel del campe"></a>
-    <nav class="header__navegacion">
-      <ul>
-  
-        <li><a href="../index.html" target="_blank">Inicio</a></li>
-        <li><a href="../pages/nosotros.html" target="_blank">Nosotros</a></li>
-        <li><a href="../pages/servicios.html" target="_blank" >Servicios</a></li>
-        <li><a href="../pages/tienda.html"  class="focusNav">Tienda</a></li>
-        <li><a href="../pages/contacto.html" target="_blank">Contacto </a></li>
-        
-      </ul>
-  
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark p-3 fixed-top">
+      <a href="../index.html" class="navbar-brand">
+        <img
+          class="d-inline-block align-top"
+          src="../images/logo3.png"
+          width="100"
+          height="100"
+          alt="logo miel del campe"
+        />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#toggleMobileMenu"
+        aria-controls="toggleMobileMenu"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="toggleMobileMenu">
+        <ul class="navbar-nav ms-auto text-center">
+          <li class="nav-item">
+            <a class="nav-link "  href="../index.html"
+              >Inicio</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../pages/servicios.html">Servicios</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="pages/tienda.html"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Tienda
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <a class="dropdown-item" href="../pages/tienda.html">Miel</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="../pages/tienda.html">Propóleo</a>
+              </li>
+              <li><hr class="dropdown-divider" /></li>
+              <li>
+                <a class="dropdown-item" href="../pages/tienda.html"
+                  >Medios de pago</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
     </nav>
-
   </header>
+
 
 
   <main>
 
-    <section id="portada"><!-- bloque -->
+    <section id="portada" ><!-- bloque -->
       <h1 id="portada__tituloPrincipal">Contacto </h1>
       
     </section>
 
-    <div class="contenedorGeneral">
+    <div class="contenedorGeneral mt-5">
 
       <div class="contenedorGeneral__ImagenContacto">
   
@@ -138,7 +211,12 @@
     </footer>
   
   
-  
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+ <script
+ src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+ integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+ crossorigin="anonymous"
+></script>
 </body>
 
 </html>
