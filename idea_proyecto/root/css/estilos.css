@@ -46,7 +46,7 @@ body{
 
 
 
-/*Estilos para pantalla SMALL*/
+/*Estilos para pantalla 768px*/
 
 @media (max-width:768px){
 
@@ -54,5 +54,24 @@ body{
 
         width: 90% !important;
 
+    }
+
+
+    #fila-servicios {
+
+        width: 100% !important;
+        text-align: center;
+
+    }
+}
+
+
+/* Estilos para pantalla 576px*/
+
+@media(max-width: 576px){
+
+    #imagen-servicio{
+        flex-wrap: wrap;
+        justify-content: center !important;
     }
 }
