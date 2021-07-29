@@ -82,7 +82,22 @@ body{
     margin: 0%;
 }
 
+/*Estilo fondo contactos*/
 
+#fondo-contactos{
+
+    position: relative;
+     top:-130px; 
+
+}
+
+#seccion-contactos{
+
+    background-color:#c4ba9e;
+    min-height: 500px;
+    position: relative;
+
+}
 
 
 
@@ -108,6 +123,14 @@ body{
         text-align: center;
 
     }
+
+     #fondo-contactos{
+
+        
+        top:-110px;
+    
+    }
+     
 }
 
 
