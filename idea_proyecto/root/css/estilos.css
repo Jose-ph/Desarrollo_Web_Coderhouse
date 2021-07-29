@@ -43,3 +43,16 @@ body{
     max-height: 39rem;
 
 }
+
+
+
+/*Estilos para pantalla SMALL*/
+
+@media (max-width:768px){
+
+    #intro {
+
+        width: 90% !important;
+
+    }
+}
