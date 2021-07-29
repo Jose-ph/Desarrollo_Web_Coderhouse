@@ -24,10 +24,17 @@ body{
 
 #menu a {
     font-size: 18px;
-    font-weight: bold;
-    color: #3f3f3f;
+    
 
 }
+
+#menu a:hover {
+
+    color: #f8e12d;
+
+}
+
+
 
 #menu button{
 
@@ -50,7 +57,7 @@ body{
 
 /*estilos para la futura seccion contactos */
 
-#local {
+#contacto {
 
     background-color: #f3f3f3;
     padding-bottom: 300px;
@@ -128,7 +135,7 @@ footer a i:hover {
 
 @media (max-width:768px){
 
-    #intro  {
+    #inicio  {
 
         width: 90% !important;
 
@@ -176,7 +183,7 @@ footer a i:hover {
 
 @media(max-width:1200px){
 
-    #local  {
+    #contacto  {
         flex-wrap: wrap;
         padding-top: 30px;
     }
