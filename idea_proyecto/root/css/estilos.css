@@ -46,16 +46,57 @@ body{
 
 
 
+
+
+/*estilos para la futura seccion contactos */
+
+#local {
+
+    background-color: #f3f3f3;
+    padding-bottom: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 50%;
+    margin-left: 100px;
+    padding-top: 150px;
+
+}
+
+#numeros-local div{
+
+    padding:0 20px 0 0 ;
+    height: 48px;
+
+    border-right: 2px solid #3f3f3f;
+
+    padding-left:20px ;
+
+
+    
+}
+
+
+
+
+
 /*Estilos para pantalla 768px*/
 
 @media (max-width:768px){
 
-    #intro {
+    #intro  {
 
         width: 90% !important;
 
     }
 
+    #nosotros{
+        width: 90% !important;
+    }
+
+  
 
     #fila-servicios {
 
@@ -73,5 +114,26 @@ body{
     #imagen-servicio{
         flex-wrap: wrap;
         justify-content: center !important;
+    }
+
+
+    #nosotros p {
+        display: none;
+    }
+}
+
+/* Estilos para desktop*/
+
+@media(max-width:1200px){
+
+    #local  {
+        flex-wrap: wrap;
+        padding-top: 30px;
+    }
+
+    .wrapper {
+        width: 90%;
+        margin: auto;
+        padding-top: 50px;
     }
 }
