@@ -36,3 +36,10 @@ body{
 
 }
 
+/*Estilos carrousel*/
+
+.carousel-inner{
+
+    max-height: 39rem;
+
+}
